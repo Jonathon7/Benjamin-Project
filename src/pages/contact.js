@@ -5,15 +5,9 @@ const Contact = () => {
   return (
     <Layout>
       <div>
-        <form
-          name="contact"
-          method="post"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
+        <form name="contact" method="post" data-netlify="true">
           <input name="name" placeholder="Your Name" type="text" />
-          <input name="email" placeholder="name@name.com" type="email" />
-          <textarea name="message" />
+
           <button>Send</button>
         </form>
       </div>

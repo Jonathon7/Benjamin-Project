@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 const Navigation = ({ siteTitle }) => (
   <div
     style={{
-      background: 'black',
+      background: '#0d0d0d',
       position: 'sticky',
       top: 0,
     }}
@@ -68,7 +68,7 @@ const Navigation = ({ siteTitle }) => (
           Contact{' '}
         </Link>
         <Link
-          to="/Give"
+          to="/give"
           style={{
             textDecoration: 'none',
             color: 'white',

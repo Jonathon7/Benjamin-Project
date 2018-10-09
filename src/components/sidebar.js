@@ -4,13 +4,13 @@ const Sidebar = () => {
   return (
     <div
       style={{
-        height: '70%',
-        maxWidth: '10%',
-        border: 'solid 2px black',
+        backgroundColor: 'whitesmoke',
+        width: '90%',
         marginLeft: 'auto',
+        height: '1100px',
       }}
     >
-      <h1>Sidebar</h1>
+      <h1>Sidebar sidebar sidebar sidebar</h1>
     </div>
   )
 }

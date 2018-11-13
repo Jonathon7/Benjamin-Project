@@ -1,15 +1,8 @@
 import React from 'react'
 
-const Sidebar = () => {
+const Sidebar = props => {
   return (
-    <div
-      style={{
-        backgroundColor: 'whitesmoke',
-        width: '90%',
-        marginLeft: 'auto',
-        height: '1100px',
-      }}
-    >
+    <div className="sidebar">
       <h1>Sidebar sidebar sidebar sidebar</h1>
     </div>
   )

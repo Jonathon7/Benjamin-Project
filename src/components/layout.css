@@ -159,10 +159,6 @@
   align-items: center;
 }
 
-.content-header {
-  text-align: center;
-}
-
 .content-text {
   line-height: 1.8;
   padding-right: 140px;
@@ -194,6 +190,7 @@
 }
 .about-text {
   line-height: 1.8;
+  padding-left: 8%;
 }
 
 .about-container {
@@ -235,6 +232,52 @@ input[type='submit'] {
 
 input[type='submit']:hover {
   background-color: #45a049;
+}
+
+.sidebar {
+  background-color: whitesmoke;
+  width: 90%;
+  margin-left: auto;
+  height: 1100px;
+}
+
+@media (max-width: 1000px) {
+  .main-content {
+    display: inline;
+  }
+
+  .contact-component {
+    display: inline;
+  }
+
+  .content-text {
+    padding: 0px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .about-heading {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about-container {
+    max-width: 100%;
+  }
+
+  .about-heading h4 {
+    padding: 0px;
+  }
+
+  .about-icon {
+    padding: 14%;
+  }
+  .about-text {
+    padding: 15px;
+  }
 }
 
 html {

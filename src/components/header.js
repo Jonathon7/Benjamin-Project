@@ -14,11 +14,11 @@ const Header = props => {
 
       <div className="header-links">
         <a href="https://google.com" className="myButton">
-          Get Involved!
+          About Us
         </a>
         <a href="https://google.com" className="call-to-action">
           {' '}
-          See about times and classes
+          See the latest from our blog!
         </a>
       </div>
     </div>

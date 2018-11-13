@@ -3,7 +3,6 @@ import React from 'react'
 const Content = () => {
   return (
     <div>
-      <h1 className="content-header"> Header Title </h1>
       <div className="contact-component">
         <div className="content-text">
           <h3>Header</h3>

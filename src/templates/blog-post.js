@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 function BlogPost(props) {
   const post = props.data.markdownRemark
   const { title } = post.frontmatter
+  
   return (
     <Layout>
       <div className="blog-posts">

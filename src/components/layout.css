@@ -37,7 +37,7 @@
 
 .header-links {
   padding-top: 5%;
-  margin-left: 35%;
+  margin-left: 36%;
 }
 
 .call-to-action {
@@ -204,8 +204,10 @@
 /* The contact page */
 
 .contact-form {
+  margin: 5px;
   padding-left: 8%;
   max-width: 65%;
+  padding-bottom: 30px;
 }
 
 input[type='text'],
@@ -222,7 +224,7 @@ textarea {
 }
 
 input[type='submit'] {
-  background-color: gray;
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -231,14 +233,53 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
-  background-color: #45a049;
+  background-color: gray;
 }
 
 .sidebar {
   background-color: whitesmoke;
-  width: 90%;
+  width: 70%;
   margin-left: auto;
   height: 1100px;
+}
+
+.sidebar-text {
+  padding-top: 20%;
+  max-width: 100%;
+}
+
+.sidebar-text h1 {
+  text-align: center;
+}
+
+.sidebar-text h4 {
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1.8;
+  padding: 15px;
+}
+
+/* top-footer */
+
+.top-footer-container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+.top-footer-list {
+  list-style: none;
+  padding-top: 4%;
+  padding-left: 7%;
+  line-height: 2.5;
+}
+
+.top-footer-icons {
+  padding-top: 14%;
+  padding-right: 10%;
 }
 
 @media (max-width: 1000px) {

@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Header from '../components/header'
 import Content from '../components/content'
+import TopFooter from '../components/topfooter'
 
 const IndexPage = props => {
   const postList = props.data.allMarkdownRemark
@@ -60,6 +61,9 @@ const IndexPage = props => {
           </Link>
         ))}
       </div>
+      <br />
+      <br />
+      <TopFooter />
     </Layout>
   )
 }

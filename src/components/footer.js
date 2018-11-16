@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-text">
-        <p>The Benjamin Project</p>
-      </div>
-      <div className="footer-text">
-        <p>lorem lorem lorem lorem</p>
+        <p>
+          copyright © 2018 - The Benjamin Project - 501(c)(3) non-profit
+          organization
+        </p>
       </div>
     </div>
   )

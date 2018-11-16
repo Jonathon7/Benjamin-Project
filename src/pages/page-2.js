@@ -4,6 +4,7 @@ import React from 'react'
 //import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Sidebar from '../components/sidebar'
+import TopFooter from '../components/topfooter'
 import icon from './images/gatsby-icon.png'
 
 const SecondPage = () => (
@@ -37,8 +38,21 @@ const SecondPage = () => (
         </div>
       </div>
       <div>
-        <Sidebar />
+        <Sidebar
+          title="Our Vision"
+          text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+            facilis quo. Ducimus repellendus distinctio quia! Recusandae
+            suscipit, repellendus eum ipsum neque sequi dolorum f ugiat,
+            explicabo assumenda vero accusantium consequatur animi? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Autem, facilis quo.
+            Ducimus repellendus distinctio quia! Recusandae suscipit,
+            repellendus eum ipsum neque sequi dolorum f ugiat, explicabo
+            assumenda vero accusantium consequatur animi?"
+        />
       </div>
+    </div>
+    <div>
+      <TopFooter />
     </div>
   </Layout>
 )

@@ -2,19 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Navigation = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#0d0d0d',
-      position: 'sticky',
-      top: 0,
-    }}
-  >
-    <nav
-      style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-      }}
-    >
+  <div className="nav-container">
+    <nav className="nav-container-2">
       <Link
         to="./"
         style={{
@@ -26,13 +15,14 @@ const Navigation = ({ siteTitle }) => (
         }}
       >
         {' '}
-        <h1 style={{ fontSize: '30px', paddingTop: '10px' }}>{siteTitle}</h1>
+        <h1 className="logo">{siteTitle}</h1>
       </Link>
       <div
         style={{
           fontSize: '20px',
           margin: '22px',
         }}
+        className="nav-list"
       >
         <Link
           to="/page-2"

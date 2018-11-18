@@ -35,6 +35,9 @@ const SecondPage = () => (
             repellendus eum ipsum neque sequi dolorum f ugiat, explicabo
             assumenda vero accusantium consequatur animi?
           </p>
+          <br />
+          <hr />
+          <br />
         </div>
       </div>
       <div>

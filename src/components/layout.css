@@ -1,3 +1,19 @@
+.nav-container {
+  background-color: #0d0d0d;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  padding-top: 12px;
+}
+
 .container-1 {
   height: 350px;
   background-color: black;
@@ -56,7 +72,7 @@
 }
 
 .text {
-  padding: 20px;
+  padding-right: 20px;
   padding-top: 40px;
 }
 
@@ -122,14 +138,14 @@
 
 .footer {
   height: 100px;
-  background-color: black;
+  background-color: #0a0a0a;
   display: flex;
   justify-content: space-evenly;
 }
 
 .footer-text {
   color: white;
-  padding-top: 35px;
+  padding-top: 45px;
 }
 
 .myButton {
@@ -203,10 +219,27 @@
 
 /* The contact page */
 
+.contact-container {
+  display: flex;
+}
+
+.contact-side-text {
+  padding-left: 5%;
+  padding-bottom: 75%;
+}
+
+.contact-side-text h5 {
+  font-size: 35px;
+}
+
+.contact-side-text h6 {
+  font-size: 20px;
+}
+
 .contact-form {
-  margin: 5px;
-  padding-left: 8%;
-  max-width: 65%;
+  margin: 0px;
+  padding-left: 15%;
+  max-width: 100%;
   padding-bottom: 30px;
 }
 
@@ -240,7 +273,6 @@ input[type='submit']:hover {
   background-color: whitesmoke;
   width: 70%;
   margin-left: auto;
-  height: 1100px;
 }
 
 .sidebar-text {
@@ -268,6 +300,7 @@ input[type='submit']:hover {
   justify-content: space-between;
   background-color: #0d0d0d;
   color: white;
+  border-bottom: solid 200px #0d0d0d;
 }
 
 .top-footer-list {
@@ -283,6 +316,37 @@ input[type='submit']:hover {
 }
 
 @media (max-width: 1000px) {
+  .nav-container {
+    height: 75px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .header-text {
+    display: none;
+  }
+
+  .header-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .header-img {
+    width: 100%;
+    background-size: contain;
+    padding-left: 120%;
+  }
+
   .main-content {
     display: inline;
   }
@@ -318,6 +382,10 @@ input[type='submit']:hover {
   }
   .about-text {
     padding: 15px;
+  }
+
+  .footer {
+    display: none;
   }
 }
 

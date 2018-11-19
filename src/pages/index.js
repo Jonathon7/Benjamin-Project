@@ -71,9 +71,9 @@ const IndexPage = props => {
         <TopFooter />
         <script>
           if (window.netlifyIdentity){' '}
-          {window.netlifyIdentity.on('init', user => {
+          {window.netlifyIdentity.on('init', function user() {
             if (!user) {
-              window.netlifyIdentity.on('login', () => {
+              window.netlifyIdentity.on('login', function() {
                 document.location.href = '/admin/'
               })
             }

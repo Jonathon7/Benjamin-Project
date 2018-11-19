@@ -57,11 +57,12 @@ const Contact = () => {
         <div style={{ width: '100%' }}>
           <Sidebar
             title="Contact Information"
-            name="Elvie Brown"
             header="Phone Number:"
             subText="432-230-7180"
             header2="Email:"
             subText2="elvie.brown.eb@gmail.com"
+            header3="Address"
+            subText3="502 E Nobles Midland, Tx 79701"
           />
         </div>
       </div>

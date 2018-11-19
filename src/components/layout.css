@@ -97,6 +97,10 @@
   padding-bottom: 20px;
 }
 
+.blog-container {
+  padding-bottom: 75px;
+}
+
 .blog-post-list {
   -webkit-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.12);
@@ -225,7 +229,12 @@
 
 .contact-side-text {
   padding-left: 5%;
-  padding-bottom: 75%;
+  padding-top: 4%;
+  padding-bottom: 60%;
+}
+
+.contact-side-text a:link {
+  color: black;
 }
 
 .contact-side-text h5 {
@@ -234,11 +243,12 @@
 
 .contact-side-text h6 {
   font-size: 20px;
+  font-weight: 225;
 }
 
 .contact-form {
   margin: 0px;
-  padding-left: 15%;
+  padding-left: 16%;
   max-width: 100%;
   padding-bottom: 30px;
 }
@@ -270,7 +280,7 @@ input[type='submit']:hover {
 }
 
 .sidebar {
-  background-color: whitesmoke;
+  border-left: solid 1px black;
   width: 70%;
   margin-left: auto;
 }
@@ -313,6 +323,12 @@ input[type='submit']:hover {
 .top-footer-icons {
   padding-top: 14%;
   padding-right: 10%;
+}
+
+/* give page */
+
+.give-container {
+  display: flex;
 }
 
 @media (max-width: 1000px) {
